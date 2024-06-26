@@ -135,8 +135,8 @@ async def handler(event):
             m=await event.respond("**ᴛʀʏɪɴɢ ғᴏʀᴡᴀʀᴅɪɴɢ**")
             fromchat = int(fromchannel)
             tochat = int(tochannel)
-            count = 359300
-            mcount = 9910
+            count = 3593
+            mcount = 991
             global MessageCount
             offset = int(offsetid)
             if offset:
@@ -206,7 +206,7 @@ async def handler(event):
                         status.remove("1")
                         await m.edit(f"**You have send** {MessageCount} messages.\nWaiting for 10 minutes.")
                         await asyncio.sleep(600)
-                        mcount = 9910
+                        mcount = 991
                         print("Starting after 10 mins")
                         await m.edit("**Starting after 10 mins**")
                 else:
@@ -216,7 +216,7 @@ async def handler(event):
                     status.remove("1")
                     await m.edit(f"**You have send** {MessageCount} messages.\nWaiting for 1 hour.")
                     await asyncio.sleep(3600)
-                    count = 359300
+                    count = 3593
                     print("Starting after 1 hour")
                     await m.edit("**Starting after 1 hour**")
                     
