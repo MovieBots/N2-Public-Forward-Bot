@@ -12,11 +12,11 @@
 
 ## How To Make Your Own [Video Tutorial](https://youtu.be/qp3Jvzw2jnY)
 
-## Update Channel [VJ Botz](https://telegram.me/vj_botz)
+## Update Channel [VJ Botz](https://t.me/Tonystark_botz)
 
-## Support Group [VJ Support](https://telegram.me/vj_bot_disscussion)
+## Support Group [VJ Support](https://t.me/MovieTimesXDisc)
 
-## Contact Owner [Tech VJ](https://telegram.me/kingvj01)
+## Contact Owner [Tech VJ](https://telegram.me/Spider_Man_02)
 
 #### Credit :- 
 
