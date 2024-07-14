@@ -15,4 +15,6 @@ def media_type(message):
         return "Video"
     if message and message.document:
         return "Document"
+    if message and message.document & message.video:
+        return "Document Video"
     return None
