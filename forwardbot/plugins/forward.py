@@ -122,7 +122,7 @@ async def handler(event):
     if event.data == b'video':
         type = "Video"
     if event.data == b'docs & video':
-        type = "Documents & Video"
+        type = "Document & Video"
         await event.delete()
     if type:
         if not await is_sudo(event):
