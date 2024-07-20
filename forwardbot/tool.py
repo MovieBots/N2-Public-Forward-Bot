@@ -16,5 +16,5 @@ def media_type(message):
     if message and message.document:
         return "Document"
     if message and message.document, message.video:
-        return "Document & Video"
+        return "Document, Video"
     return None
