@@ -55,7 +55,7 @@ async def handler(event):
         await event.respond('**Select What you need to forward**', buttons=[
                     [Button.inline('ᴀʟʟ ᴍᴇssᴀɢᴇs', b'all'), Button.inline('ᴏɴʟʏ ᴘʜᴏᴛᴏs', b'photo')],
                     [Button.inline('ᴏɴʟʏ ᴅᴏᴄᴜᴍᴇɴᴛs', b'docs'), Button.inline('ᴏɴʟʏ ᴠɪᴅᴇᴏ' , b'video')],
-                    [Button.inline('ᴅᴏᴄᴜᴍᴇɴᴛꜱ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ', b'docs & video')]
+                    [Button.inline('ᴅᴏᴄᴜᴍᴇɴᴛꜱ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ', b'docs, video')]
                     ])
 
 @forwardbot_cmd("reset", is_args=False)
@@ -121,8 +121,8 @@ async def handler(event):
         await event.delete()
     if event.data == b'video':
         type = "Video"
-    if event.data == b'docs & video':
-        type = "Document & Video"
+    if event.data == b'docs, video':
+        type = "Document, Video"
         await event.delete()
     if type:
         if not await is_sudo(event):
